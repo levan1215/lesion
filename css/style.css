@@ -45,7 +45,7 @@ button{
     transition-duration:0.5s;
     transition-timing-function:linear; 
     transition:all 0.5s linear 0.5s;  */
-} */
+
 /* .title-h5:hover{
     color: aqua;
     background: pink;
@@ -66,8 +66,37 @@ button{
     50%{top:100; background-color: blue;}
     100%{top:200;background-color: red;}
 }  */
+.box-child{
+	width: 150px;
+	height:150px;
+	background-color:red;
+    margin: 10px;   
+}
+.box-child:nth-child(1){
+    background-color: green;
+}
+.box-child:nth-child(2){
+    background-color: chartreuse;
+}
+.boxes{
+    /* height: 450px; */
+	display: flex;
+    flex-wrap: wrap;
+    /* horizontaluri pozicia */
+    justify-content: center;
+    /* vertical pozicion    */
+    align-items: center;
+    background-color: aqua;
+    flex-direction: row-reverse;
 
-
+}
+/* .box-wraper{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: green;
+} */
 
 
 
